@@ -245,7 +245,7 @@ def log_posterior(theta):
 # Running MCMC
 ndim = 8
 nwalkers = 100
-nsteps = 5000
+nsteps = 2000
 nburn = 500
 initial = np.array([1.70, 0.803, 44.0, 121.9, 57.1, 0.001, 4.54, 0.030])   
 pos = initial + 1e-4 * np.random.randn(nwalkers, ndim)  # Slightly larger spread
